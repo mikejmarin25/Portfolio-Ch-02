@@ -3,51 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Mike Marin's Portfolio</title>
-
-    <!-- Semantic tag header -->
+  </head>
+    
+  <!-- Header Element -->
     <header>
-      <h1>Mike Marin</h1>
-      <!-- Semantic tag Nav Bar -->
+      <h1> Mike Marin </h1>
       <nav>
         <ul>
           <li>
-            <a href="#AboutMe">About Me</a>
+            <a href="#AboutMe"><u>About Me</u></a>
           </li>
           <li>
-            <a href="#Work">Work</a>
+            <a href="#Work"><u>Work</u></a>
           </li>
           <li>
-            <a href="#ContactMe">Contact Me</a>
+            <a href="#ContactMe"><u>Contact Me</u></a>
           </li>
           <li>
-            <a href="#Resume">Resume</a>
+            <a href="#Resume"><u>Resume</u></a>
           </li>
         </ul>
       </nav>
     </header>
-  </head>
+ 
   <body>
-    <!-- Hero/top image -->
-    <figure></figure>
 
-    <section id="AboutMe">
-      <h2>About Me</h2>
-      <img src="./assets/Mikemarin.JPG"  width="200" height="250" />
-      <p>
-        My name is Mike Marin, I'm currently working as a Business Banker, my
-        ultimate goal is to become a Software Engeneer.
-      </p>
+    <!-- Hero/top image -->   
+    <section class = "hero">
+      <h1>
+        <mark>Sky is the Limit</mark>
+      </h1>
     </section>
 
-    <section id="Work">
-      <h2>Work</h2>
-      <a href="https://mikejmarin25.github.io/Challenge-01/">Horiseon Website</a></br>
-      <a href="https://mikejmarin25.github.io/Challenge-01/">Run Buddy</a>
+    <!-- About Me Section -->
+    <section id="AboutMe" class="about">
+          <article class="about">
+            <img src="./assets/Mikemarin.JPG" alt="Profile picture" style="width:20%"/>
+            <div class="about-text text-left">
+              <h1><u>About Me</u></h1>
+              <h3>Mike Marin</h3>
+              <p>
+                My name is Mike Marin, I'm currently working as a Business Banker, my
+                ultimate goal is to become a Software Engeneer.
+              </p>
+            </div>
+          </article>
     </section>
 
-    <section id="ContactMe">
+<!-- Work Section -->
+    <div class = "container">
+    <section id="Work" class="work">
+    <h1 style="align-items: center;"><u>Work </u></h1>
+    
+      <article class ="work">
+        
+        <br>
+        <div class = "RunBuddy">
+        <a href=" https://mikejmarin25.github.io/run-buddy/">
+          <img src="./assets/images/runner.jpeg" alt="Runner" style="width:100%">
+          <div class="top-left" style="color:lightgray"><mark>Run Buddy</mark></div>
+        </a>
+      </div>
+
+      <div class="Challenge1">
+        <a href="https://mikejmarin25.github.io/Challenge-01/">
+          <img src = "assets/images/challenge1.jpeg" alt = "Rock Climber" style="width:100%">
+          <div class="top-left" style="color: lightgray"><mark>Challenge 01</mark></div>
+        </a>
+      </div>
+
+      <div class="Challenge2">
+        <a href="https://mikejmarin25.github.io/Challenge-02/">
+          <img src = "assets/images/Challenge2.jpeg" alt = Challenge 2 style="width: 100%">
+          <div class="top-left" style="color: lightgray"><mark>Challenge 02</mark></div>
+        </a>
+      </div>
+      </article>
+    </section>
+  </div>
+
+    <!-- <section id="ContactMe">
       <h2>Contact Me</h2>
       <nav>
         <ul>
@@ -61,6 +98,6 @@
           </li>
         </ul>
       </nav>
-    </section>
+    </section> -->
   </body>
 </html>
