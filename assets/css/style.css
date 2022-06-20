@@ -7,6 +7,7 @@
 .container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 body {
@@ -122,6 +123,19 @@ header nav ul li a {
   text-align: left;
 }
 
+.firstProject{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstProject h1{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    margin-left: 150px;
+}
+
 /* Work Section Styling */
 
 .work {
@@ -129,14 +143,16 @@ header nav ul li a {
   justify-content: center;
 }
 
-.work h1 {
-  font-size: 40px;
-  margin-bottom: 8px;
+.work h1{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .work img {
   width: 100;
-  padding: 10px;
+  padding: 45px;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -146,25 +162,46 @@ mark {
   color: darkslategray;
 }
 
+/* RunBuddy Project */
 .RunBuddy {
   position: relative;
   text-align: center;
 }
+.RunBuddy img{
+    transition: 0.5s all ease-in-out;
+}
+.RunBuddy:hover img {
+    transform: scale(1.1);
+}
 
+/* Challenge 1 */
 .Challenge1 {
   position: relative;
   text-align: center;
 }
+.Challenge1 img{
+    transition: 0.5s all ease-in-out;
+}
+.Challenge1:hover img {
+    transform: scale(1.1);
+}
 
+/* Challenge 2 */
 .Challenge2 {
   position: relative;
   text-align: center;
+}
+.Challenge2 img{
+    transition: 0.5s all ease-in-out;
+}
+.Challenge2:hover img {
+    transform: scale(1.1);
 }
 
 .top-left {
   position: absolute;
   top: 20px;
-  left: 30px;
+  left: 70px;
 }
 
 /* Contact Me Styling */
