@@ -11,60 +11,64 @@
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   background-color: lightgray;
+  color: darkslategray;
 }
 
 /* HEADER Styling */
-
 header {
-  padding: 20px;
+  padding: 10px;
   background-color: darkslategray;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: sans-serif;
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Display Name */
 header h1 {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
   font-weight: bold;
-  font-size: 48px;
-  color: darkslategray;
-  background-color: lightgrey;
+  font-size: 52px;
+  color: lightgrey;
   margin: 0;
 }
 
-header a {
-  text-decoration: none;
-  color: lightgray;
-}
-
+/* Navigation Links in the Header */
 header nav {
-  margin: 18px 0;
+  /* Moves Nav links up and down in the header section */
+  margin: 52px;
+  /* Moves Nav Links to the Left */
+  margin-left: 600px;
+  
 }
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:flex-end;
   align-items: center;
   list-style: none;
 }
 
 header nav ul li a {
-  margin: 0 80px;
+  margin: 30px;
+  /* spacing in between each link */
   font-weight: lighter;
   font-size: 1.55vw;
 }
 
+header a {
+    text-decoration: none;
+    color: lightgray;
+  }
+
 /* Hero Style Start */
 .hero {
   background-image: url("../images/abstract-triangle-background-patterns-vector-10114549.jpeg");
-  height: 275px;
-  /* background-size: cover; */
+  height: 250px;
   background-position: center;
   position: relative;
 }
@@ -72,11 +76,11 @@ header nav ul li a {
 .hero h1 {
   display: flex;
   justify-content: flex-end;
-  padding: 15px;
+  padding: 30px;
   font-size: 40px;
-  font-family: monospace;
-  font-weight: bold;
-  color: rgb(19, 33, 33);
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
   margin: 0;
 }
 /* Hero Style End */
@@ -90,7 +94,9 @@ header nav ul li a {
   padding: 35px;
   margin: 0 auto 30px auto;
   background: lightgray;
-  color: rgb(19, 33, 33);
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
   overflow: auto;
 }
 
@@ -133,7 +139,8 @@ header nav ul li a {
 
 .firstProject h1{
     font-size: 40px;
-    color: black;
+    color: darkslategray;
+    font-family: sans-serif;
     text-align: left;
     margin-left: 150px;
 }
@@ -148,7 +155,9 @@ header nav ul li a {
 
 .work h1{
     font-size: 40px;
-    color: black;
+      font-family: sans-serif;
+  font-weight: bolder;
+  color: darkslategray;
     text-align: left;
     margin-left: 10px;
 }
@@ -211,9 +220,9 @@ mark {
 
 footer {
   padding: 20px;
+  font-family:  sans-serif;
   background-color: darkslategray;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  color: lightgray;
   display: flex;
   flex-wrap: wrap;
 }
@@ -224,8 +233,6 @@ footer h1 {
   padding: 20px;
   font-weight: bold;
   font-size: 48px;
-  color: darkslategray;
-  background-color: lightgrey;
   margin: 0;
 }
 
@@ -235,7 +242,7 @@ footer a {
 }
 
 footer nav {
-  margin: 18px 0;
+  margin: 35px 0;
 }
 
 footer nav ul {
