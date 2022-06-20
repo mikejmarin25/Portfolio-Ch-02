@@ -87,7 +87,7 @@ header nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  padding: 35px;
   margin: 0 auto 30px auto;
   background: lightgray;
   color: rgb(19, 33, 33);
@@ -127,6 +127,8 @@ header nav ul li a {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 35px;
+
 }
 
 .firstProject h1{
@@ -141,6 +143,7 @@ header nav ul li a {
 .work {
   display: flex;
   justify-content: center;
+  padding: 35px;
 }
 
 .work h1{
