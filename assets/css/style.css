@@ -1,173 +1,213 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: lightgray;
-  }
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: lightgray;
+}
 
 /* HEADER Styling */
 
 header {
-    padding: 20px;
-    background-color: darkslategray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  header h1 {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 48px;
-    color: darkslategray;
-    background-color: lightgrey;
-    margin: 0;
-  }
+  padding: 20px;
+  background-color: darkslategray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  header a {
-    text-decoration: none;
-    color: lightgray;
-  }
-  
-  header nav {
-    margin: 18px 0;
-  }
+header h1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  color: darkslategray;
+  background-color: lightgrey;
+  margin: 0;
+}
 
-  header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+header a {
+  text-decoration: none;
+  color: lightgray;
+}
 
+header nav {
+  margin: 18px 0;
+}
 
-  header nav ul li a {
-    margin: 0 80px;
-    font-weight: lighter;
-    font-size:  1.55vw;
-  }
-  
-  /* Hero Style Start */
-  .hero {
-    background-image: url('../images/abstract-triangle-background-patterns-vector-10114549.jpeg');
-    height: 275px;
-    /* background-size: cover; */
-    background-position: center;
-    position: relative;
-  }
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
- .hero h1 {
-    display: flex;
-    justify-content: flex-end;
-    padding: 15px;
-    font-size: 48px;
-    font-family: monospace;
-    font-weight: bold;
-    color: rgb(19, 33, 33);
-    margin: 0;
-  }
-  /* Hero Style End */
+header nav ul li a {
+  margin: 0 80px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
 
-/* about me section */
+/* Hero Style Start */
+.hero {
+  background-image: url("../images/abstract-triangle-background-patterns-vector-10114549.jpeg");
+  height: 275px;
+  /* background-size: cover; */
+  background-position: center;
+  position: relative;
+}
 
-  .about {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    margin: 0 auto 30px auto;
-    background: lightgray;
-    color: rgb(19, 33, 33);
-    overflow: auto;
-  }
-  
-  .about img {
-    width: 35%;
-    float: left;
-  }
+.hero h1 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  font-size: 40px;
+  font-family: monospace;
+  font-weight: bold;
+  color: rgb(19, 33, 33);
+  margin: 0;
+}
+/* Hero Style End */
 
-  .about-text {
-    padding: 35px;
-    float: left;
-    width: 65%;
-  }
-  
-  .about-text h1 {
-    font-size: 45px;
-    margin-bottom: 8px;
-  }
-  .about-text h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
-  }
-    
-  .about-text p {
-    font-size: 17px;
-    line-height: 1.3;
-  }
-  
-  .text-left {
-    text-align: left;
-  }
+/* About me Styling */
 
-  .work {
-    display: flex;
-    justify-content: center;
-  }
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
-  .work h1 {
-    font-size: 45px;
-    margin-bottom: 8px;
-  }
+  margin: 0 auto 30px auto;
+  background: lightgray;
+  color: rgb(19, 33, 33);
+  overflow: auto;
+}
 
-  .work img {
-    width: 100;
-    padding: 10px;
-    margin-right: 15px;
-    margin-left: 15px;
-  }
+.about img {
+  width: 35%;
+  float: left;
+}
 
-  mark {
-    background-color: lightgrey;
-    color: darkslategray;
-  }
+.about-text {
+  padding: 35px;
+  float: left;
+  width: 65%;
+}
 
-  .RunBuddy {
-    position: relative;
-    text-align: center;
-  }
+.about-text h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+.about-text h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
 
-  .Challenge1 {
-    position: relative;
-    text-align: center;
-  }
-  
-  .Challenge2 {
-    position: relative;
-    text-align: center;
-  }
+.about-text p {
+  font-size: 17px;
+  line-height: 1.3;
+}
 
-/* Top left text */
+.text-left {
+  text-align: left;
+}
+
+/* Work Section Styling */
+
+.work {
+  display: flex;
+  justify-content: center;
+}
+
+.work h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.work img {
+  width: 100;
+  padding: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+mark {
+  background-color: lightgrey;
+  color: darkslategray;
+}
+
+.RunBuddy {
+  position: relative;
+  text-align: center;
+}
+
+.Challenge1 {
+  position: relative;
+  text-align: center;
+}
+
+.Challenge2 {
+  position: relative;
+  text-align: center;
+}
+
 .top-left {
   position: absolute;
   top: 20px;
   left: 30px;
 }
 
+/* Contact Me Styling */
 
-  
-  
+footer {
+  padding: 20px;
+  background-color: darkslategray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+footer h1 {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 48px;
+  color: darkslategray;
+  background-color: lightgrey;
+  margin: 0;
+}
 
+footer a {
+  text-decoration: none;
+  color: lightgray;
+}
 
+footer nav {
+  margin: 18px 0;
+}
 
+footer nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
-
-
+footer nav ul li a {
+  margin: 0 80px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
