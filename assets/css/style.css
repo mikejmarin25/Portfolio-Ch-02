@@ -37,24 +37,17 @@ header h1 {
 }
 
 /* Navigation Links in the Header */
-header nav {
-  /* Moves Nav links up and down in the header section */
-  margin: 52px;
-  /* Moves Nav Links to the Left */
-  margin-left: 600px;
-  
-}
-
-header nav ul {
+header nav ul{
   display: flex;
   flex-wrap: wrap;
-  justify-content:flex-end;
-  align-items: center;
-  list-style: none;
+  padding:40px;
+  flex-direction: row;
+  align-items: center;  
 }
 
+
 header nav ul li a {
-  margin: 30px;
+  margin: 35px;
   /* spacing in between each link */
   font-weight: lighter;
   font-size: 1.55vw;
@@ -120,9 +113,11 @@ header a {
   margin-bottom: 8px;
 }
 
-.about-text p {
-  font-size: 17px;
-  line-height: 1.3;
+.about-text ul {
+  font-size: 27px;
+  padding: 20px;
+ 
+
 }
 
 .text-left {
